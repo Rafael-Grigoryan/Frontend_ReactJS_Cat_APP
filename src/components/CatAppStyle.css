@@ -5,10 +5,9 @@
   align-items: center;
 }
 .category {
-    font-size: 30px;
-    text-decoration: none;
+  font-size: 30px;
+  text-decoration: none;
 }
-
 
 .image-container {
   display: flex;
@@ -24,3 +23,8 @@
   cursor: pointer;
 }
 
+.paginate {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
