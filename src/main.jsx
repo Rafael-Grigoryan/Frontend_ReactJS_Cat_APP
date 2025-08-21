@@ -3,6 +3,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
+import { Menu } from "./components/Menu/Menu.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
         element: <Navbar />,
       },
     ],
+  },
+  {
+    path: "/menu",
+    element: <Menu />
   },
 ]);
 
