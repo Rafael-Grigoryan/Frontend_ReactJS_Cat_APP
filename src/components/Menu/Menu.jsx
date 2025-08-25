@@ -5,7 +5,14 @@ const menuData = [
   {
     id: 1,
     title: "Home",
-    children: [],
+    children: [{
+        id: 3,
+        title: "Laptops",
+        children: [
+          { id: 4, title: "MacBook Pro", children: [] },
+          { id: 5, title: "Dell XPS", children: [] },
+        ],
+      },],
   },
   {
     id: 2,
@@ -59,7 +66,7 @@ export function MenuItem({ element }) {
     <>
       <div key={element.id} onClick={handleClick} className="menu">{element.title}</div>
       {open && (
-        <div>
+        <div className="menu-item">
           {element.children.map((child) => {
             return <MenuItem key={child.id} element={child} />;
           })}
