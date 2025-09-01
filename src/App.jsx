@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <CatApp />
       <button onClick={() => setModalOpen(true)}>Open</button>
-
+barev
       {ModalOpen &&
         createPortal(
           <Modal isOpen={ModalOpen} onClose={() => setModalOpen(false)}>
