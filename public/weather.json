@@ -1,0 +1,29 @@
+[
+  {
+    "city": "Yerevan",
+    "weather": {
+      "temperature": { "current": 28, "feelsLike": 30 },
+      "condition": "Sunny",
+      "humidity": 40,
+      "wind": { "speed": 12, "direction": "NE" }
+    }
+  },
+  {
+    "city": "Paris",
+    "weather": {
+      "temperature": { "current": 19, "feelsLike": 18 },
+      "condition": "Rainy",
+      "humidity": 70,
+      "wind": { "speed": 8, "direction": "W" }
+    }
+  },
+  {
+    "city": "London",
+    "weather": {
+      "temperature": { "current": 15, "feelsLike": 14 },
+      "condition": "Cloudy",
+      "humidity": 65,
+      "wind": { "speed": 10, "direction": "N" }
+    }
+  }
+]

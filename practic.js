@@ -44,19 +44,19 @@
 //   );
 // }
 
-const obj = {
-  name: "Rafo",
-  age: "22",
-  printName: function () {
-    console.log(this.name, this.age);
-  },
-};
+// const obj = {
+//   name: "Rafo",
+//   age: "22",
+//   printName: function () {
+//     console.log(this.name, this.age);
+//   },
+// };
 
-obj.printName();
+// obj.printName();
 
-const newObj = {
-  name: "Rafo2",
-  age: "1",
-};
+// const newObj = {
+//   name: "Rafo2",
+//   age: "1",
+// };
 
-obj.printName.call(newObj);
+// obj.printName.call(newObj);
